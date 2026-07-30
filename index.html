@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Quran Air</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #fafafa;
+        }
+        h1 {
+            color: #1a6b3c;
+            border-bottom: 2px solid #1a6b3c;
+            padding-bottom: 0.5rem;
+        }
+        h2 {
+            color: #2c5f2d;
+            margin-top: 2rem;
+        }
+        .last-updated {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+        .lang-switch {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .lang-switch a {
+            padding: 0.4rem 1rem;
+            border: 1px solid #1a6b3c;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #1a6b3c;
+            font-size: 0.9rem;
+        }
+        .lang-switch a.active {
+            background: #1a6b3c;
+            color: white;
+        }
+        .section-ar {
+            direction: rtl;
+            text-align: right;
+            display: none;
+        }
+        .section-en {
+            direction: ltr;
+            text-align: left;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 0.6rem 1rem;
+            text-align: left;
+        }
+        th {
+            background: #e8f5e9;
+        }
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="last-updated">Last updated: July 30, 2025</p>
+
+<div class="lang-switch">
+    <a href="#" class="active" onclick="showLang('en'); return false;">English</a>
+    <a href="#" onclick="showLang('ar'); return false;">العربية</a>
+</div>
+
+<!-- ═══════════════════════════ ENGLISH ═══════════════════════════ -->
+
+<div id="lang-en" class="section-en">
+
+<h2>Overview</h2>
+<p><strong>Quran Air</strong> ("the App") is a free, ad-free mobile application that streams live Quran recitations from public radio stations and curated reciter archives. This privacy policy explains how the App handles data.</p>
+
+<p><strong>The short version: We collect nothing. We track nothing. We share nothing.</strong></p>
+
+<h2>1. Data We Collect</h2>
+<p>The App does <strong>not</strong> collect, store, or transmit any personal or device data. Specifically:</p>
+<ul>
+    <li><strong>No accounts or login</strong> — The App does not require you to create an account or sign in.</li>
+    <li><strong>No personal information</strong> — We do not collect your name, email, phone number, or any identifying information.</li>
+    <li><strong>No device information</strong> — We do not collect device IDs, IMEI, advertising IDs, or hardware identifiers.</li>
+    <li><strong>No location data</strong> — The App does not access GPS or location services.</li>
+    <li><strong>No usage analytics</strong> — We do not use analytics SDKs (e.g., Firebase Analytics, Google Analytics). We do not track what you listen to, when you open the App, or how long you use it.</li>
+    <li><strong>No storage access</strong> — The App does not read or write to your device's files or photo library.</li>
+    <li><strong>No contacts, camera, or microphone</strong> — The App does not access any of these.</li>
+</ul>
+
+<h2>2. Data Stored on Your Device</h2>
+<p>The App stores the following data <strong>locally on your device only</strong>. This data never leaves your device:</p>
+<table>
+    <tr><th>Data</th><th>Purpose</th><th>Shared?</th></tr>
+    <tr><td>Favorite reciters/stations list</td><td>Remember your favorites across sessions</td><td>No</td></tr>
+    <tr><td>App settings (language, theme, sleep timer)</td><td>Remember your preferences</td><td>No</td></tr>
+    <tr><td>Cached reciter metadata (names, biographies)</td><td>Reduce network requests and enable offline browsing</td><td>No</td></tr>
+</table>
+<p>You can clear this data at any time by clearing the App's storage in your device settings or uninstalling the App.</p>
+
+<h2>3. Network Activity</h2>
+<p>The App connects to the internet <strong>only</strong> to stream Quran audio and fetch reciter metadata from the following public sources:</p>
+<ul>
+    <li>mp3quran.net — Public Quran reciter API</li>
+    <li>way2quran.com — Public reciter archive metadata</li>
+    <li>qurango.com — Public Quran radio streams</li>
+    <li>radiojar.com — Public radio station streaming</li>
+    <li>mp3islam.com — Public Quran radio streaming</li>
+</ul>
+<p>These connections are standard audio streaming requests. No personal data is sent to these servers. The servers may log standard request metadata (IP address, timestamp) as part of their normal operation, but the App does not send any identifying information.</p>
+
+<h2>4. Permissions</h2>
+<table>
+    <tr><th>Permission</th><th>Why it's needed</th></tr>
+    <tr><td>INTERNET</td><td>Stream Quran audio from online radio stations</td></tr>
+    <tr><td>WAKE_LOCK</td><td>Keep audio playing when the screen is off</td></tr>
+    <tr><td>FOREGROUND_SERVICE</td><td>Enable background audio playback</td></tr>
+    <tr><td>FOREGROUND_SERVICE_MEDIA_PLAYBACK</td><td>Show media controls in the notification bar</td></tr>
+</table>
+<p>The App does <strong>not</strong> request: Camera, Microphone, Location, Contacts, Phone state, SMS, Storage, or Calendar permissions.</p>
+
+<h2>5. Children's Privacy</h2>
+<p>The App is suitable for all ages and does not collect any data from anyone, including children. There is no age restriction, no account creation, and no content that is inappropriate for children.</p>
+
+<h2>6. Third-Party Services</h2>
+<p>The App does <strong>not</strong> use any third-party SDKs for analytics, advertising, or tracking. The only third-party services used are the public Quran audio streaming servers listed above.</p>
+
+<h2>7. Data Sharing</h2>
+<p>The App does <strong>not</strong> share any user data with any third party, because it does not collect any user data.</p>
+
+<h2>8. Data Security</h2>
+<p>Since the App does not collect or store any personal data, there is no risk of personal data exposure. Audio streaming uses standard internet protocols.</p>
+
+<h2>9. Your Rights</h2>
+<p>Since the App does not collect any personal data, there is no personal data to access, correct, export, or delete. Your locally stored preferences (favorites, settings) are under your control and can be cleared at any time from your device settings.</p>
+
+<h2>10. Changes to This Policy</h2>
+<p>If we ever change this privacy policy, we will update this page and revise the "Last updated" date. Since the App does not collect data, we do not anticipate any material changes.</p>
+
+<h2>11. Contact</h2>
+<p>If you have any questions about this privacy policy, you can contact us at:<br>
+<strong>Email:</strong> abdelquddos@gmail.com</p>
+
+</div>
+
+<!-- ═══════════════════════════ ARABIC ═══════════════════════════ -->
+
+<div id="lang-ar" class="section-ar">
+
+<h2>نظرة عامة</h2>
+<p><strong>إذاعة القرآن</strong> ("التطبيق") هو تطبيق مجاني وبدون إعلانات يبث تلاوات القرآن الكريم مباشرة من إذاعات عامة وأرشيفات قرائية منتقاة. تشرح سياسة الخصوصية هذه كيف يتعامل التطبيق مع البيانات.</p>
+
+<p><strong>باختصار: لا نجمع أي بيانات. لا نتتبع أي شيء. لا نشارك أي شيء.</strong></p>
+
+<h2>١. البيانات التي نجمعها</h2>
+<p>التطبيق <strong>لا</strong> يجمع أو يخزن أو ينقل أي بيانات شخصية أو بيانات جهاز. تحديداً:</p>
+<ul>
+    <li><strong>لا حسابات أو تسجيل دخول</strong> — التطبيق لا يتطلب إنشاء حساب أو تسجيل الدخول.</li>
+    <li><strong>لا معلومات شخصية</strong> — لا نجمع اسمك أو بريدك الإلكتروني أو رقم هاتفك أو أي معلومات تعريفية.</li>
+    <li><strong>لا معلومات جهاز</strong> — لا نجمع معرفات الجهاز أو IMEI أو معرفات الإعلانات.</li>
+    <li><strong>لا بيانات موقع</strong> — التطبيق لا يصل إلى GPS أو خدمات الموقع.</li>
+    <li><strong>لا تحليلات استخدام</strong> — لا نستخدم أي أدوات تحليل (مثل Firebase Analytics أو Google Analytics). لا نتتبع ما تستمع إليه أو متى تفتح التطبيق.</li>
+    <li><strong>لا وصول للتخزين</strong> — التطبيق لا يقرأ أو يكتب ملفات جهازك أو مكتبة الصور.</li>
+    <li><strong>لا جهات اتصال أو كاميرا أو ميكروفون</strong> — التطبيق لا يصل إلى أي من هذه.</li>
+</ul>
+
+<h2>٢. البيانات المخزنة على جهازك</h2>
+<p>التطبيق يخزن البيانات التالية <strong>محلياً على جهازك فقط</strong>. هذه البيانات لا تغادر جهازك أبداً:</p>
+<table>
+    <tr><th>البيانات</th><th>الغرض</th><th>تُشارك؟</th></tr>
+    <tr><td>قائمة القراء/الإذاعات المفضلة</td><td>تذكر مفضلاتك بين الجلسات</td><td>لا</td></tr>
+    <tr><td>إعدادات التطبيق (اللغة، المؤقت)</td><td>تذكر تفضيلاتك</td><td>لا</td></tr>
+    <tr><td>بيانات القراء المخزنة مؤقتاً (الأسماء، السير)</td><td>تقليل طلبات الشبكة وتصفح دون اتصال</td><td>لا</td></tr>
+</table>
+<p>يمكنك مسح هذه البيانات في أي وقت من خلال مسح تخزين التطبيق في إعدادات جهازك أو حذف التطبيق.</p>
+
+<h2>٣. نشاط الشبكة</h2>
+<p>التطبيق يتصل بالإنترنت <strong>فقط</strong> لبث صوت القرآن وجلب بيانات القراء من المصادر العامة التالية:</p>
+<ul>
+    <li>mp3quran.net — واجهة برمجية عامة لقراء القرآن</li>
+    <li>way2quran.com — أرشيف قرائي عام</li>
+    <li>qurango.com — بث إذاعات القرآن</li>
+    <li>radiojar.com — بث إذاعات عامة</li>
+    <li>mp3islam.com — بث إذاعات القرآن</li>
+</ul>
+<p>هذه الاتصالات هي طلبات بث صوتي عادية. لا يتم إرسال أي بيانات شخصية إلى هذه الخوادم. قد تسجل الخوادم بيانات الطلب القياسية (عنوان IP، الوقت) كجزء من تشغيلها العادي، لكن التطبيق لا يرسل أي معلومات تعريفية.</p>
+
+<h2>٤. الصلاحيات</h2>
+<table>
+    <tr><th>الصلاحية</th><th>لماذا تحتاجها</th></tr>
+    <tr><td>INTERNET</td><td>بث صوت القرآن من الإذاعات الإلكترونية</td></tr>
+    <tr><td>WAKE_LOCK</td><td>استمرار تشغيل الصوت عند إطفاء الشاشة</td></tr>
+    <tr><td>FOREGROUND_SERVICE</td><td>تشغيل الصوت في الخلفية</td></tr>
+    <tr><td>FOREGROUND_SERVICE_MEDIA_PLAYBACK</td><td>إظهار أدوات التحكم في شريط الإشعارات</td></tr>
+</table>
+<p>التطبيق <strong>لا</strong> يطلب: الكاميرا، الميكروفون، الموقع، جهات الاتصال، حالة الهاتف، الرسائل، التخزين، أو التقويم.</p>
+
+<h2>٥. خصوصية الأطفال</h2>
+<p>التطبيق مناسب لجميع الأعمار ولا يجمع أي بيانات من أي شخص، بما في ذلك الأطفال. لا يوجد قيد عمري ولا إنشاء حساب ولا محتوى غير مناسب للأطفال.</p>
+
+<h2>٦. خدمات الطرف الثالث</h2>
+<p>التطبيق <strong>لا</strong> يستخدم أي أدوات طرف ثالث للتحليلات أو الإعلانات أو التتبع. الخدمات الخارجية الوحيدة المستخدمة هي خوادم بث صوت القرآن العامة المذكورة أعلاه.</p>
+
+<h2>٧. مشاركة البيانات</h2>
+<p>التطبيق <strong>لا</strong> يشارك أي بيانات مستخدم مع أي طرف ثالث، لأنه لا يجمع أي بيانات مستخدم.</p>
+
+<h2>٨. أمان البيانات</h2>
+<p>بما أن التطبيق لا يجمع أو يخزن أي بيانات شخصية، فلا يوجد خطر لتسريب البيانات الشخصية. البث الصوتي يستخدم بروتوكولات إنترنت قياسية.</p>
+
+<h2>٩. حقوقك</h2>
+<p>بما أن التطبيق لا يجمع أي بيانات شخصية، فلا توجد بيانات للوصول أو التصحيح أو التصدير أو الحذف. تفضيلاتك المخزنة محلياً (المفضلة، الإعدادات) تحت سيطرتك ويمكن مسحها في أي وقت من إعدادات جهازك.</p>
+
+<h2>١٠. التغييرات على هذه السياسة</h2>
+<p>إذا قمنا بتغيير سياسة الخصوصية، سنحدّث هذه الصفحة ونراجع تاريخ "آخر تحديث". بما أن التطبيق لا يجمع بيانات، لا نتوقع أي تغييرات جوهرية.</p>
+
+<h2>١١. التواصل</h2>
+<p>إذا كان لديك أي أسئلة حول سياسة الخصوصية، يمكنك التواصل معنا عبر:<br>
+<strong>البريد:</strong> abdelquddos@gmail.com</p>
+
+</div>
+
+<footer>
+    <p>© 2025 Quran Air (إذاعة القرآن). All rights reserved.</p>
+</footer>
+
+<script>
+function showLang(lang) {
+    document.getElementById('lang-en').style.display = lang === 'en' ? 'block' : 'none';
+    document.getElementById('lang-ar').style.display = lang === 'ar' ? 'block' : 'none';
+    document.querySelectorAll('.lang-switch a').forEach(function(a, i) {
+        a.classList.toggle('active', (lang === 'en' && i === 0) || (lang === 'ar' && i === 1));
+    });
+}
+</script>
+
+</body>
+</html>

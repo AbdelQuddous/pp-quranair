@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy — Quran Air</title>
+    <title>Privacy Policy — Insat (إنصات)</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -79,7 +79,7 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="last-updated">Last updated: July 30, 2025</p>
+<p class="last-updated">Last updated: November 13, 2026</p>
 
 <div class="lang-switch">
     <a href="#" class="active" onclick="showLang('en'); return false;">English</a>
@@ -91,7 +91,7 @@
 <div id="lang-en" class="section-en">
 
 <h2>Overview</h2>
-<p><strong>Quran Air</strong> ("the App") is a free, ad-free mobile application that streams live Quran recitations from public radio stations and curated reciter archives. This privacy policy explains how the App handles data.</p>
+<p><strong>Insat</strong> (إنصات, formerly Quran Air, "the App") is a free, ad-free mobile application that streams live Quran recitations from public radio stations and curated reciter archives. This privacy policy explains how the App handles data.</p>
 
 <p><strong>The short version: We collect nothing. We track nothing. We share nothing.</strong></p>
 
@@ -118,14 +118,12 @@
 <p>You can clear this data at any time by clearing the App's storage in your device settings or uninstalling the App.</p>
 
 <h2>3. Network Activity</h2>
-<p>The App connects to the internet <strong>only</strong> to stream Quran audio and fetch reciter metadata from the following public sources:</p>
+<p>The App connects to the internet <strong>only</strong> to stream Quran audio and fetch reciter metadata from the following sources:</p>
 <ul>
-    <li>mp3quran.net — Public Quran reciter API</li>
-    <li>way2quran.com — Public reciter archive metadata</li>
-    <li>qurango.com — Public Quran radio streams</li>
-    <li>radiojar.com — Public radio station streaming</li>
-    <li>mp3islam.com — Public Quran radio streaming</li>
+    <li>quran-air-edge.albahtimi.workers.dev — The App's own server (hosted on Cloudflare). It serves the station and reciter catalog and a daily stream-health list. The App only downloads these files; it sends nothing about you.</li>
+    <li>Public Quran audio and radio streaming servers, including mp3quran.net, way2quran.com, qurango.net, radiojar.com, mp3islam.com, quran-radio.org, islamic.app, mixlr.com and the official streams of national Quran radio stations.</li>
 </ul>
+<p>To keep the station list reliable, the App may check once a day whether a few stream links still respond. These checks are ordinary requests to the same streaming servers and contain no personal data.</p>
 <p>These connections are standard audio streaming requests. No personal data is sent to these servers. The servers may log standard request metadata (IP address, timestamp) as part of their normal operation, but the App does not send any identifying information.</p>
 
 <h2>4. Permissions</h2>
@@ -135,6 +133,11 @@
     <tr><td>WAKE_LOCK</td><td>Keep audio playing when the screen is off</td></tr>
     <tr><td>FOREGROUND_SERVICE</td><td>Enable background audio playback</td></tr>
     <tr><td>FOREGROUND_SERVICE_MEDIA_PLAYBACK</td><td>Show media controls in the notification bar</td></tr>
+    <tr><td>POST_NOTIFICATIONS</td><td>Show playback controls and the Quran alarm notification</td></tr>
+    <tr><td>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</td><td>Ask (only if you agree) to keep recitation playing when some devices would stop it to save power</td></tr>
+    <tr><td>SCHEDULE_EXACT_ALARM</td><td>Start the Quran alarm at the exact time you set</td></tr>
+    <tr><td>USE_FULL_SCREEN_INTENT</td><td>Open the app when the Quran alarm goes off</td></tr>
+    <tr><td>RECEIVE_BOOT_COMPLETED</td><td>Re-schedule your Quran alarm after the phone restarts</td></tr>
 </table>
 <p>The App does <strong>not</strong> request: Camera, Microphone, Location, Contacts, Phone state, SMS, Storage, or Calendar permissions.</p>
 
@@ -167,7 +170,7 @@
 <div id="lang-ar" class="section-ar">
 
 <h2>نظرة عامة</h2>
-<p><strong>إذاعة القرآن</strong> ("التطبيق") هو تطبيق مجاني وبدون إعلانات يبث تلاوات القرآن الكريم مباشرة من إذاعات عامة وأرشيفات قرائية منتقاة. تشرح سياسة الخصوصية هذه كيف يتعامل التطبيق مع البيانات.</p>
+<p><strong>إنصات</strong> (سابقًا «إذاعة القرآن» / Quran Air، "التطبيق") هو تطبيق مجاني وبدون إعلانات يبث تلاوات القرآن الكريم مباشرة من إذاعات عامة وأرشيفات قرائية منتقاة. تشرح سياسة الخصوصية هذه كيف يتعامل التطبيق مع البيانات.</p>
 
 <p><strong>باختصار: لا نجمع أي بيانات. لا نتتبع أي شيء. لا نشارك أي شيء.</strong></p>
 
@@ -194,14 +197,12 @@
 <p>يمكنك مسح هذه البيانات في أي وقت من خلال مسح تخزين التطبيق في إعدادات جهازك أو حذف التطبيق.</p>
 
 <h2>٣. نشاط الشبكة</h2>
-<p>التطبيق يتصل بالإنترنت <strong>فقط</strong> لبث صوت القرآن وجلب بيانات القراء من المصادر العامة التالية:</p>
+<p>التطبيق يتصل بالإنترنت <strong>فقط</strong> لبث صوت القرآن وجلب بيانات القراء من المصادر التالية:</p>
 <ul>
-    <li>mp3quran.net — واجهة برمجية عامة لقراء القرآن</li>
-    <li>way2quran.com — أرشيف قرائي عام</li>
-    <li>qurango.com — بث إذاعات القرآن</li>
-    <li>radiojar.com — بث إذاعات عامة</li>
-    <li>mp3islam.com — بث إذاعات القرآن</li>
+    <li>quran-air-edge.albahtimi.workers.dev — خادم التطبيق نفسه (مستضاف على Cloudflare). يوفّر قائمة الإذاعات والقراء وقائمة يومية بحالة البث. التطبيق يحمّل هذه الملفات فقط ولا يرسل أي شيء عنك.</li>
+    <li>خوادم بث القرآن والإذاعات العامة، ومنها mp3quran.net وway2quran.com وqurango.net وradiojar.com وmp3islam.com وquran-radio.org وislamic.app وmixlr.com، والبث الرسمي لإذاعات القرآن الوطنية.</li>
 </ul>
+<p>للحفاظ على عمل قائمة الإذاعات، قد يتحقق التطبيق مرة يوميًا من أن بعض روابط البث ما زالت تعمل. هذه طلبات عادية لنفس خوادم البث ولا تحتوي على أي بيانات شخصية.</p>
 <p>هذه الاتصالات هي طلبات بث صوتي عادية. لا يتم إرسال أي بيانات شخصية إلى هذه الخوادم. قد تسجل الخوادم بيانات الطلب القياسية (عنوان IP، الوقت) كجزء من تشغيلها العادي، لكن التطبيق لا يرسل أي معلومات تعريفية.</p>
 
 <h2>٤. الصلاحيات</h2>
@@ -211,6 +212,11 @@
     <tr><td>WAKE_LOCK</td><td>استمرار تشغيل الصوت عند إطفاء الشاشة</td></tr>
     <tr><td>FOREGROUND_SERVICE</td><td>تشغيل الصوت في الخلفية</td></tr>
     <tr><td>FOREGROUND_SERVICE_MEDIA_PLAYBACK</td><td>إظهار أدوات التحكم في شريط الإشعارات</td></tr>
+    <tr><td>POST_NOTIFICATIONS</td><td>إظهار أدوات التشغيل وإشعار منبّه القرآن</td></tr>
+    <tr><td>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</td><td>طلب استثناء التطبيق من توفير الطاقة (بموافقتك فقط) حتى لا تتوقف التلاوة على بعض الأجهزة</td></tr>
+    <tr><td>SCHEDULE_EXACT_ALARM</td><td>تشغيل منبّه القرآن في الوقت الذي تحدده بالضبط</td></tr>
+    <tr><td>USE_FULL_SCREEN_INTENT</td><td>فتح التطبيق عند رنين منبّه القرآن</td></tr>
+    <tr><td>RECEIVE_BOOT_COMPLETED</td><td>إعادة ضبط منبّه القرآن بعد إعادة تشغيل الهاتف</td></tr>
 </table>
 <p>التطبيق <strong>لا</strong> يطلب: الكاميرا، الميكروفون، الموقع، جهات الاتصال، حالة الهاتف، الرسائل، التخزين، أو التقويم.</p>
 
